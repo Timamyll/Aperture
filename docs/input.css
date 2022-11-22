@@ -41,17 +41,17 @@ html {
 
 .imgs {
     height: 800px;
-    background: no-repeat center / cover url(../images/bg/bg.png);
+    background: no-repeat center / cover url(./images/bg/bg.png);
 }
 
 .imgss {
     height: 600px;
-    background: no-repeat center / cover url(../images/sunset/01.jpg);
+    background: no-repeat center / cover url(./images/sunset/01.jpg);
 }
 
 .imgs-tools {
     height: 545px;
-    background: no-repeat right url(../images/sunset/02.png);
+    background: no-repeat right url(./images/sunset/02.png);
     position: absolute;
     width: 50%;
     left: 50%;
@@ -73,12 +73,12 @@ html {
 
 .imgs-rica {
     height: 600px;
-    background: no-repeat center / cover url(../images/sunset/03.png);
+    background: no-repeat center / cover url(./images/sunset/03.png);
 }
 
 .imgs-ricas {
     height: 600px;
-    background: no-repeat center / cover url(../images/sunset/04.png);
+    background: no-repeat center / cover url(./images/sunset/04.png);
 }
 
 .buttons {
