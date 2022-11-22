@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    background-color: #000;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.imgs {
+    height: 800px;
+    background: no-repeat center / cover url(../images/bg/bg.png);
+}
+
+.imgss {
+    height: 600px;
+    background: no-repeat center / cover url(../images/sunset/01.jpg);
+}
+
+.imgs-tools {
+    height: 545px;
+    background: no-repeat right url(../images/sunset/02.png);
+    position: absolute;
+    width: 50%;
+    left: 50%;
+}
+
+@media (max-width: 1280px) {
+    .imgs-tools {
+        left: 0;
+        position: unset;
+        width: 100vh;
+    }
+}
+
+@media (max-width: 951px) {
+    .imgs-tools {
+        width: 100%;
+    }
+}
+
+.imgs-rica {
+    height: 600px;
+    background: no-repeat center / cover url(../images/sunset/03.png);
+}
+
+.imgs-ricas {
+    height: 600px;
+    background: no-repeat center / cover url(../images/sunset/04.png);
+}
+
+.buttons {
+    height: 30px;
+    left: 84.93%;
+    right: 1.31%;
+    top: calc(50% - 30px/2);
+    background: #000000;
+    border-radius: 11px;
+    border: 1px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.buttons:hover {
+    background: white;
+}
+
+@media (max-width: 523px) {
+    .buttons {
+        top: calc(50% - 17px/2);
+    }
+}
